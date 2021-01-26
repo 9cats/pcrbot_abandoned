@@ -37,7 +37,6 @@ MODULES_ON = {
     # 'hourcall',
     # 'kancolle',
     # 'mikan',
-    'pcrclanbattle',
     'priconne',
     'setu',
     'setu_mix',
