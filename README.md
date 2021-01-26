@@ -1,6 +1,6 @@
 # VPS搭建部署 HoshinoBot 与 yobot
 闲着用VPS搭建一个qq机器人
-(安全性未知/概率性暴毙)
+(安全性未知/概率性暴毙/购买的VPS便宜性能较差且未翻越GFW)
 ## 主要参考
 ### 参考文章
  [Linux 下部署一个公主连结 qq 群聊机器人](https://cn.pcrbot.com/deploy-a-priconne-bot-on-linux/)
@@ -16,7 +16,7 @@
 [HoshinoBot插件索引](https://github.com/pcrbot/HoshinoBot-plugins-index)
 
 ## yobot功能
-[yobot](https://yobot.win/)
+[yobot官方介绍](https://yobot.win/features/)（注：我删除了部分插件，部分插件不生效）
 ## HoshinoBot插件
 | 插件            | 作用                        |
 | --------------- | --------------------------- |
@@ -25,7 +25,6 @@
 ![关于我的项目只有setu插件更新这回事](https://img-blog.csdnimg.cn/img_convert/93e4a4317f5ffdfb7bfd4e3a732f5181.png)
 
 关于只有我的涩图插件在更新这档事
-### Rua
 ## 移植注意
 
 ### 项目目录：
