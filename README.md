@@ -27,6 +27,35 @@
 ### Rua
 ## 移植注意
 
+### 项目目录：
+* Pcrbot
+  * Hoshino
+    * hoshino
+    * res （资源）
+      * gacha （抽卡音效）
+      * HARU （野中晴语言包）
+      * hayasaka （早坂爱语言包）
+      * MEGUMIN （惠惠语言包）
+      * pcrwarn （黑猫语言包）
+      * record （小仓唯语言包）
+      * img （图库）
+        * 1 
+    * LICENSE
+    * requirements.txt
+    * run.py
+  * Hoshino_data
+    * Hoshino数据（直接移植） 
+  * gocqhttp_data
+    * gocqhttp_data （直接移植）
+      * codec
+      * data
+      * logs
+    * <font color="#f65060">config.hjson</font>（配置文件）  
+    * <font color="#f65060">device.json</font>（配置文件）   
+  * yobot_data
+    * yobot数据（直接移植）
+  
+
 ### 别又忘了随机生成的密钥
 | 加密中的各值 |  最常见的一种加密算法    |
 |:--------:| -------------:|
