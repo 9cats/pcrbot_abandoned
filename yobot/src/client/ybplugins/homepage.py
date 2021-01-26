@@ -54,5 +54,5 @@ class Index:
         @app.route(
             urljoin(self.public_basepath, 'helpOfHoshino/'),
             methods=['GET'])
-        async def yobot_help():
+        async def hoshino_help():
             return await send_from_directory(template_folder, "helpOfHoshino.html")
