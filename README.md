@@ -1,8 +1,9 @@
-# VPS使用Docker搭建部署 HoshinoBot 与 yobot
+# VPS搭建部署 HoshinoBot 与 yobot
 闲着用VPS搭建一个qq机器人
+(安全性未知/概率性暴毙)
 ## 主要参考
 ### 参考文章
- [使用 Docker 部署 HoshinoBot 与 yobot](https://cn.pcrbot.com/depoly-with-docker/)
+ [Linux 下部署一个公主连结 qq 群聊机器人](https://cn.pcrbot.com/deploy-a-priconne-bot-on-linux/)
 ### 常用站点
 [pcrbot](https://cn.pcrbot.com/)
 
@@ -43,9 +44,9 @@
     * LICENSE
     * requirements.txt
     * run.py
-  * Hoshino_data
+  * yobot
     * Hoshino数据（直接移植） 
-  * gocqhttp_data
+  * gocqhttp
     * gocqhttp_data （直接移植）
       * codec
       * data
