@@ -298,16 +298,7 @@ class Gacha:
 
     @staticmethod
     def match(cmd: str) -> int:
-        if cmd == "十连" or cmd == "十连抽":
-            return 1
-        elif cmd.startswith("仓库"):
-            return 4
-        elif cmd == "在线十连" or cmd == "在线抽卡":
-            return 5
-        elif cmd == "抽一井" or cmd == "来一井":
-            return 6
-        else:
-            return 0
+        return 0
 
     def execute(self, func_num: int, msg: dict):
         if func_num == 5:

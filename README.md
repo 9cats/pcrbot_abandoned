@@ -40,21 +40,25 @@
       * pcrwarn （黑猫语言包）
       * record （小仓唯语言包）
       * img （图库）
-        * 1 
+    * <font color="#06f090">log（Hoshino数据）</font>
     * LICENSE
     * requirements.txt
     * run.py
   * yobot
-    * Hoshino数据（直接移植） 
+    * src
+      * client
+        * <font color="#06f090">yobot_data（yobot数据）</font>
+        * other
+    * script
+    * docs
+    * LICENSE
+    * __init.py
   * gocqhttp
-    * gocqhttp_data （直接移植）
-      * codec
-      * data
-      * logs
+    * go-cqhttp
+    * <font color="#06f090">data（QQ数据）</font>
+    * <font color="#06f090">logs（日志文件）</font>
     * <font color="#f65060">config.hjson</font>（配置文件）  
-    * <font color="#f65060">device.json</font>（配置文件）   
-  * yobot_data
-    * yobot数据（直接移植）
+    * <font color="#f65060">device.json</font>（配置文件） 
   
 
 ### 别又忘了随机生成的密钥
@@ -63,6 +67,3 @@
 |TOKEN| XXXXXXXXXXXXXXXX|
 |KEY| IAMADIDI|
 |RESULT| U2FsdGVkX1+fWk0SDQFei0u6SIv9h2HNPQDrpDS43VSd9raE1WCDWoxSfqaPjSmG|
-
-
-121165161

@@ -234,20 +234,7 @@ class Consult:
 
     @staticmethod
     def match(cmd: str) -> int:
-        if not cmd.startswith("jjc"):
-            return 0
-        if cmd == "jjc查询":
-            return 5
-        elif cmd.startswith("jjc查询"):
-            return 1
-        elif cmd.startswith("jjc国服"):
-            return 2
-        elif cmd.startswith("jjc台服"):
-            return 3
-        elif cmd.startswith("jjc日服"):
-            return 4
-        else:
-            return 0
+        return 0
 
     def execute(*args, **kwargs):
         raise RuntimeError('no more sync calling supported')
