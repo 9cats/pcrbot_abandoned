@@ -40,13 +40,19 @@ class Index:
             return await send_from_directory(static_folder, "small.ico")
 
         @app.route(
-            urljoin(self.public_basepath, 'help/'),
+            urljoin(self.public_basepath, 'helpOfYobot/'),
             methods=['GET'])
         async def yobot_help():
-            return await send_from_directory(template_folder, "help.html")
+            return await send_from_directory(template_folder, "helpOfYobot.html")
 
         @app.route(
             urljoin(self.public_basepath, 'manual/'),
             methods=['GET'])
         async def yobot_manual():
             return await send_from_directory(template_folder, "manual.html")
+
+        @app.route(
+            urljoin(self.public_basepath, 'helpOfHoshino/'),
+            methods=['GET'])
+        async def yobot_help():
+            return await send_from_directory(template_folder, "helpOfHoshino.html")

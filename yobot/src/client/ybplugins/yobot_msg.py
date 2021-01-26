@@ -12,6 +12,12 @@ class Message:
         self.help_page = urljoin(
             glo_setting["public_address"],
             '{}help/'.format(glo_setting['public_basepath']))
+        self.help_yobot =  urljoin(
+            glo_setting["public_address"],
+            '{}helpOfYobot/'.format(glo_setting['public_basepath']))
+        self.help_hoshino =  urljoin(
+            glo_setting["public_address"],
+            '{}helpOfHoshino/'.format(glo_setting['public_basepath']))
         if glo_setting['web_mode_hint']:
             self.help_page += '\n\n如果无法打开，请仔细阅读教程中《链接无法打开》的说明'
 
@@ -30,7 +36,7 @@ class Message:
         if match_num == 99:
             reply = self.version
         elif match_num == 98:
-            reply = self.help_page
+            reply = "yobot帮助：" + self.help_yobot + "\nhoshino帮助：" + self.help_hoshino
         elif match_num == 97:
             reply = urljoin(
                 self.setting["public_address"],
