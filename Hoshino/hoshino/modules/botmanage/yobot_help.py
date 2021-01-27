@@ -42,4 +42,4 @@ sv_help_clan = '''
 '''.strip()
 
 
-sv = Service('yobot_clan',help_=sv_help_entertainment, bundle='pcr会战')
+sv = Service('yobot_clan',help_=sv_help_clan, bundle='pcr会战')
