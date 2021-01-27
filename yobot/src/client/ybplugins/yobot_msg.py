@@ -36,7 +36,14 @@ class Message:
         if match_num == 99:
             reply = self.version
         elif match_num == 98:
-            reply = "yobot帮助：" + self.help_yobot + "\nhoshino帮助：" + self.help_hoshino + "\ngithub：https://github.com/9cats/pcrbot"
+            reply = """
+发送以下关键词查看更多：
+[帮助pcr会战]
+[帮助pcr查询]
+[帮助pcr娱乐]
+[帮助pcr订阅]
+[帮助kancolle]
+[帮助通用]""" + "\nyobot帮助：".strip() + self.help_yobot + "\nhoshino帮助：" + self.help_hoshino + "\ngithub：https://github.com/9cats/pcrbot"
         elif match_num == 97:
             reply = urljoin(
                 self.setting["public_address"],
