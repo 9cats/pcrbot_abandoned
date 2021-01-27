@@ -3,10 +3,11 @@ import asyncio
 from .base import *
 from .config import get_config, get_group_config, set_group_config
 
-HELP_MSG = '''色图/来n张色图 : 随机获取1张/n张色图
-搜[n张]色图 keyword : 搜索指定关键字的色图,附带数量可以获取多张
-本日涩图排行榜 [page] : 获取p站排行榜(需开启acggov模块)
-看涩图 [n] 或 [start end] : 获取p站排行榜指定序号色图(需开启acggov模块)'''
+HELP_MSG = '''
+[色图/来n张色图] 随机获取1张/n张色图
+[搜n张色图 keyword] 搜索指定关键字的色图,附带数量可以获取多张
+[本日涩图排行榜 page] : 获取p站排行榜(需开启acggov模块)
+[看涩图 n (或 start end)] : 获取p站排行榜指定序号色图(需开启acggov模块)'''
 sv = hoshino.Service('setu_mix', bundle='pcr娱乐', help_=HELP_MSG)
 
 #设置limiter
