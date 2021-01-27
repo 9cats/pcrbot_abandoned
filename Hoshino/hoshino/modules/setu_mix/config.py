@@ -15,7 +15,7 @@ config = {
         "xml": False,
     },
     "lolicon": {
-        "mode": 1,
+        "mode": 2,
         "apikey": "",
         "r18": True,
         "use_thumb": True,
@@ -24,7 +24,7 @@ config = {
     },
     "acggov": {
         # 0禁用 1无缓存 2有缓存在线 3有缓存离线
-        "mode": 1,
+        "mode": 2,
         "apikey": "",
         "ranking_mode": "daily",
         "per_page": 25,
