@@ -1,8 +1,19 @@
 from hoshino import Service
 import socket
 
-hostname=socket.gethostname()
-ip=socket.gethostbyname(hostname)
+def get_host_ip():
+    """
+    查询本机ip地址
+    :return:
+    """
+    try:
+        s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+        s.connect(('8.8.8.8',80))
+        ip=s.getsockname()[0]
+    finally:
+        s.close()
+
+    return ip
 
 sv_help_query = '''
 [日程(今日/明日/x月x日)(可自动)] 查看活动日程
@@ -39,7 +50,7 @@ sv_help_clan = '''
 [锁定:留言]	锁定boss，提醒后面申请出刀的人并留言
 [解锁] 解锁boss，其他人可以继续申请3
 更多详情可点击请网页进入
-'''.strip() + "\nhttp://" + ip + ":9222/helpOfYobot/"
+'''.strip() + "\nhttp://" + get_host_ip() + ":9222/helpOfYobot/"
 
 
 sv = Service('yobot_clan',help_=sv_help_clan, bundle='pcr会战')
