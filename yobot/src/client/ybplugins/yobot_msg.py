@@ -43,7 +43,7 @@ class Message:
 [帮助pcr娱乐]
 [帮助pcr订阅]
 [帮助kancolle]
-[帮助通用]""" + "\nyobot帮助：".strip() + self.help_yobot + "\nhoshino帮助：" + self.help_hoshino + "\ngithub：https://github.com/9cats/pcrbot"
+[帮助通用]""".strip() + "\n以下可从网页查看更多详情：\npcr会战帮助：" + self.help_yobot + "\ngithub仓库：https://github.com/9cats/pcrbot"
         elif match_num == 97:
             reply = urljoin(
                 self.setting["public_address"],
