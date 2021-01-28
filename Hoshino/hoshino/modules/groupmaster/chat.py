@@ -56,7 +56,7 @@ async def nihaole(bot, ev):
 async def nihaole(bot, ev):
     await bot.send(ev, '你到底在说什么？你这个大变态！')
 
-@sv.on_keyword('ue','春田', only_to_me=True)
+@sv.on_keyword('ue','春田')
 async def nihaole(bot, ev):
     if random.random() < 0.20:
         await bot.send(ev, '伤害优衣的人在哪里？')
