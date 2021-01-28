@@ -45,5 +45,7 @@ MODULES_ON = {
     'rss',
     'rua',
     'aircon',
-    'xcw'
+    'xcw',
+    'PcrDuel',
+    'PcrRun'
 }

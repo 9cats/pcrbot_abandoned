@@ -36,6 +36,8 @@
 | sleeping-set | 精致睡眠 | 群禁言 |
 | chat | 聊天 | 自定义回复群友内容 |
 | rss | 推送 | 推送up主或官方 |
+| PcrRun | 赛跑（下注） | pcr角色的赛跑小游戏 |
+| PcrDuel | 比拼（下注） | 创建贵族进行俄罗斯转盘决斗，提升贵族等级，争夺pcr女友的小游戏 |
 
 ![关于我的项目只有setu插件更新这回事](https://img-blog.csdnimg.cn/img_convert/93e4a4317f5ffdfb7bfd4e3a732f5181.png)
 
