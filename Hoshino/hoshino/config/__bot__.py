@@ -47,5 +47,5 @@ MODULES_ON = {
     'aircon',
     'xcw',
     'PcrDuel',
-    'PcrRun'
+    'PcrRun',
 }
