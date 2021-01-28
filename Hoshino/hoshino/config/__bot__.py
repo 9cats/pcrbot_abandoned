@@ -42,6 +42,7 @@ MODULES_ON = {
     'setu_mix',
     # 'translate',
     # 'twitter',
+    'rss',
     'rua',
     'aircon',
     'xcw'

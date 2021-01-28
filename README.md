@@ -28,16 +28,14 @@
 | gacha | 模拟抽卡 | 别看了，井田人竟是我自己 |
 | pcr-avatar-guess | 猜头像 | 优衣你不识得？ |
 | pcr-cherugo | 切噜 | 切啰巴切拉切蹦切蹦 |
-| pcr-comic | pcr官漫 | 官方四格漫画得推送和观看 |
 | pcr-desc-guess | 猜角色 | 根据描述猜出角色 |
 | pcr-login-bouns | 群签到 | 妈亲自来给你签到 |
-| pcr-news-bili | B服新闻推送 |  |
-| pcr-news-tw | 官服推特推送 |  |
 | pcr-query | pcr查询 | 查找pcr的相关信息信息 |
 | random-repeater | 复读机 | 概率跟着群友+1 |
 | setu_mix | 涩图 | DDDD |
 | sleeping-set | 精致睡眠 | 群禁言 |
 | chat | 聊天 | 自定义回复群友内容 |
+| rss | 推送 | 推送up主或官方 |
 
 ![关于我的项目只有setu插件更新这回事](https://img-blog.csdnimg.cn/img_convert/93e4a4317f5ffdfb7bfd4e3a732f5181.png)
 
