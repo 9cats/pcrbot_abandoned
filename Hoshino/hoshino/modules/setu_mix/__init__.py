@@ -227,6 +227,6 @@ async def send_ranking_setu(bot, ev):
                 print('撤回失败')
             await asyncio.sleep(1)
 
-@sv.scheduled_job('interval', minutes=300)
+@sv.scheduled_job('interval', minutes=8)
 async def job():
     await fetch_process()
