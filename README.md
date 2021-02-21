@@ -1,6 +1,9 @@
 # VPS搭建部署 HoshinoBot 与 yobot
 闲着用VPS搭建一个qq机器人
 (安全性未知/概率性暴毙/购买的VPS便宜性能较差且未翻越GFW)
+## 已弃置
+本库经测试不适合移植与更新移植，已弃置。
+新的Hoshino插件库:https://github.com/9cats/HoshinoBot_modules
 ## 主要参考
 ### 参考文章
  [Linux 下部署一个公主连结 qq 群聊机器人](https://cn.pcrbot.com/deploy-a-priconne-bot-on-linux/)
@@ -20,6 +23,16 @@
 ## HoshinoBot插件
 | 插件 | 名称 | 作用 |
 | ---- | --- | ---- |
+| botmanage | 机器人管理 | 提醒/广播/清理图片/反馈/取码/邀请入群/退群/帮助/功能列表/服务端信息 |
+| groupmaster | 群管理 | 自定义回复/入群通知/随机复读 |
+| mikan | 追番 | mikan番剧订阅 |
+| pcrclanbattle | 会战工具 | 机器人提供会战工具使用 |
+| priconne | 一个整合modules | 抽卡/猜头像/信息查询/切噜/jjc查询 |
+
+
+| rss | 推送 | 推送up主或官方 |
+| JJC排名变化 |
+
 | Rua | 搓你 | 发送一张搓群友头像的gif图片 |
 | feedback | 反馈 | 向HoshinoBot发送反馈信息 |
 | aircon | 群空调 | 通过比较科学的算法来得到群活跃度 |
@@ -35,7 +48,6 @@
 | setu_mix | 涩图 | DDDD |
 | sleeping-set | 精致睡眠 | 群禁言 |
 | chat | 聊天 | 自定义回复群友内容 |
-| rss | 推送 | 推送up主或官方 |
 | PcrRun | 赛跑（下注） | pcr角色的赛跑小游戏 |
 | PcrDuel | 比拼（下注） | 创建贵族进行俄罗斯转盘决斗，提升贵族等级，争夺pcr女友的小游戏 |
 
